@@ -1,0 +1,6 @@
+{
+  "minimum-stability": "dev",
+  "require-dev": {
+    "humbug/box": "3.x-dev"
+  }
+}

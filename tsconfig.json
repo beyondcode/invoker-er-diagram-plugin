@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "sourceMap": false,
+    },
+    "files": [
+        "./node_modules/@beyondcode/invoker-plugin-typings/index.d.ts"
+    ],
+    "include": [
+        "./resources/js/**/*"
+    ]
+}

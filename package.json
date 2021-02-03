@@ -1,0 +1,36 @@
+{
+  "private": true,
+  "version": "1.0.0",
+  "name": "er-diagram",
+  "displayName": "ER Diagram",
+  "main": "dist/js/main.js",
+  "renderer": "dist/js/renderer.js",
+  "engines": {
+    "invoker": "^2.0.0"
+  },
+  "scripts": {
+    "build-plugin": "npm run production && zip -r plugin-$npm_package_version.zip dist package.json",
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch-poll": "npm run watch -- --watch-poll",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "devDependencies": {
+    "@beyondcode/invoker-plugin-typings": "^0.0.2",
+    "cross-env": "^5.0.0",
+    "electron": "^9.2.0",
+    "laravel-mix": "^5.0",
+    "ts-loader": "^8.0.14",
+    "typescript": "^4.1.3",
+    "vue": "^2.6.11",
+    "vue-router": "^3.1.6",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "dependencies": {
+    "svg-pan-zoom": "^3.6.1",
+    "viz.js": "^2.1.2",
+    "vue-svg-pan-zoom": "^1.1.0"
+  }
+}
