@@ -1,6 +1,6 @@
 {
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "er-diagram",
   "displayName": "ER Diagram",
   "main": "dist/js/main.js",
@@ -18,7 +18,7 @@
     "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
   },
   "devDependencies": {
-    "@beyondcode/invoker-plugin-typings": "^0.0.2",
+    "@beyondcode/invoker-plugin-typings": "^0.0.3",
     "cross-env": "^5.0.0",
     "electron": "^9.2.0",
     "laravel-mix": "^5.0",

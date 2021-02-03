@@ -823,10 +823,10 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
-"@beyondcode/invoker-plugin-typings@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@beyondcode/invoker-plugin-typings/-/invoker-plugin-typings-0.0.2.tgz#bfd7b74a3ad2761b85fcfe448a34671d99d40e36"
-  integrity sha512-8kcQpUb/gJa91eu199hzNCQFtuD28/S7Pv8OnkelebkEmYhawTWnhPuFta96ayIYRiQVzrTITLRU1AF7EdyxvA==
+"@beyondcode/invoker-plugin-typings@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@beyondcode/invoker-plugin-typings/-/invoker-plugin-typings-0.0.3.tgz#c3d97004c663c0884121fdafc1444bde77094398"
+  integrity sha512-0OXid8TfW3nBQxv3suiyUgti1OVXYurLr/29ZN/0fIoRpsNAKzEcivscEdOYV895QmTQS25EKkCzD+LPr7My9g==
 
 "@electron/get@^1.0.1":
   version "1.12.3"
