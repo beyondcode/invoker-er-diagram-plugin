@@ -156,10 +156,6 @@ export default {
     
     activated() {
       this.loadGraph();
-    },
-
-    mounted() {
-      this.loadGraph();
     }
 }
 </script>
